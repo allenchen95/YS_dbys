@@ -80,7 +80,7 @@ body{
     transform:scale(1.2);
     transition: all 0.5s ease;
 }
-@media(max-width:600px){
+@media(max-width:1000px){
     .col{
         float: none;
         width:auto;
