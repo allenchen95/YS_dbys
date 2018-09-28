@@ -88,6 +88,7 @@ body{
     .col{
         float: none;
         width:auto;
+        min-height: 560px;
     }
     .col_imgbox{
         padding-top:20px;
