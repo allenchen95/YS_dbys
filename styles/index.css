@@ -49,7 +49,11 @@ body{
     margin-top:6%;
     width: 88%;
 }
-.col_imgbox img{
+.col_imgbox a{
+    width: 100%;
+    overflow: hidden;
+}
+.col_imgbox a img{
     width: 100%;
 }
 .col_titlebox{
@@ -72,12 +76,12 @@ body{
     align-items: center;
 
 }
-.col_btn img{
-    transform:scale(1);
+.col_imgbox a img{
+    opacity: 1;
     transition: all 0.7s ease;
 }
-.col_btn img:hover{
-    transform:scale(1.2);
+.col_imgbox a  img:hover{
+    opacity: 0.8;
     transition: all 0.5s ease;
 }
 @media(max-width:1000px){
