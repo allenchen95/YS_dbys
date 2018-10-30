@@ -31,12 +31,12 @@ body{
 .info section{
     text-align: center;
     vertical-align: -webkit-baseline-middle;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     padding-left: 10%;
     padding-right: 10%;
 }
 .info section p{
-    font-size: 1.1em;
+    font-size: 1em;
     color: #eeece1;
     line-height: 40px;
     letter-spacing:0.05em;
@@ -44,10 +44,11 @@ body{
 .wrapper{
     padding: 0 10%;
 }
+
+
 .col{
     float: left;
     width: 27.33%;
-    min-height: 540px;
     background: #faf7eb;
     margin-left:3%;
     margin-right:3%;
@@ -67,40 +68,55 @@ body{
     width: 100%;
 }
 .col_titlebox{
-
+    height: 120px;
+    overflow: hidden;
     display: block;
 }
 .col_titlebox p{
-    height: 80px;
-    overflow:hidden;
-    margin:6% 12% 6% 12%;
+    margin:5% 8% 5% 8%;
     text-align: center;
     vertical-align: -webkit-baseline-middle;
-    font-size: 1.6em;
-    line-height: 40px;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: bold;
     color: #2b4a68;
 }
 .col_btn{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 
 }
 .col_imgbox a img{
     opacity: 1;
-    transition: all 0.7s ease;
+    transition: all 0.5s ease;
 }
 .col_imgbox a  img:hover{
     opacity: 0.8;
     transition: all 0.5s ease;
 }
-@media(max-width:1000px){
+@media(max-width:800px){
     .col{
         float: none;
         width:auto;
-        min-height: 560px;
+        position: relative;
     }
     .col_imgbox{
         padding-top:20px;
+    }
+    .col_titlebox{
+        height: 100px;
+        overflow: hidden;
+        display: block;
+    }
+    .col_titlebox p{
+        overflow:hidden;
+        margin:5% 12% 0% 12%;
+        text-align: center;
+        vertical-align: -webkit-baseline-middle;
+        font-size: 22px;
+        line-height: 32px;
+        color: #2b4a68;
     }
 }
